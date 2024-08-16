@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.prent-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #e0e0e0;
+}
+
+.operate-region {
+    height: 536px;
+    width: 350px;
+    padding: 4px;
+    border: 4px solid darkcyan;
+    border-radius: 6px;
+    background-color: cyan;
+    box-shadow: -10px 10px 10px dimgray;
+}
+
+.operate-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid blue;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: -10px 10px 20px dimgray;
+}
+
+.input-box {
+    width: 96%;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+    /* box-shadow: 0px 0px 9px 2px gray; */
+}
+
+.input-config {
+    height: 80px;
+    width: 100%;
+    padding: 3px;
+    text-align: right;
+    font-size: 40px;
+    border-radius: 6px;
+    appearance: none;
+    caret-color: green;
+    color: darkgreen;
+    background-color: darkseagreen;
+    border: 5px solid darkslategray;
+    /* box-shadow: 0px 0px 9px 4px gray; */
+}
+
+.input-config::-webkit-inner-spin-button {
+    display: none;
+}
+
+.hr-box {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+.hr-config {
+    background-color: black;
+    height: 2px;
+    box-shadow: 0px -2px 4px 1px dimgray;
+}
+
+.on-button-config,
+.off-button-config {
+    box-shadow: -4px 2px 9px gray;
+}
+
+.on-button-config:active,
+.off-button-config:active {
+    box-shadow: 0px 0px 2px black;
+}
+
+.button-box {
+    height: 350px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.number-box {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.number-config {
+    height: 65px;
+    width: 65px;
+    border-radius: 12px;
+    background-color: rgba(144, 238, 144);
+    border: 2px solid darkcyan;
+    box-shadow: -2px 2px 9px gray;
+}
+
+.operation-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.operation-config,
+.result-button {
+    height: 55px;
+    width: 55px;
+    border-radius: 15px;
+    border: 1px solid teal;
+    box-shadow: -2px 2px 9px black;
+}
+
+.result-button {
+    width: 75px;
+    font-size: 20px;
+    background-color: red;
+    border: 1px solid darkred;
+}
+
+.content-config {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minus-config {
+    width: 40px;
+    font-weight: 600;
+    /* border: 2px solid black; */
+}
+
+.button-config {
+    border: none;
+    border-radius: 15px;
+    /* background-color: rgba(0, 128, 128, 0.8); */
+    background-color: forestgreen;
+}
+
+.result-button:active {
+    /* background-color: black; */
+    box-shadow: 0px 0px 2px black;
+}
+
+.button-config-rest {
+    border: none;
+    border-radius: 12px;
+}
+
+.number-config {
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.number-config:active {
+    /* color: red; */
+    /* background-color: white; */
+    box-shadow: 0px 0px 2px black;
+}
+
+.operation-config:active {
+    /* color: black; */
+    /* background-color: mediumspringgreen; */
+    box-shadow: 0px 0px 2px black;
+}
+
+.button-config-C,
+.button-config-Dot {
+    background-color: aqua;
+}
+
+.button-config-C {
+    color: blue;
+}
+
+.button-config-Dot {
+    color: black;
+}
+
+/* .button-config-C:active {
+    color: aqua;
+    background-color: lightseagreen;
+} */
+
+/* .button-config-Dot:active {
+    color: white;
+    background-color: teal;
+} */
+
+.on-off-button-box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.on-button,
+.off-button {
+    padding-right: 15px;
+}
+
+.off-button {
+    padding-right: 30px;
+}
+
+.caret-box {
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 30px;
+}
+
+.left-caret-shift,
+.right-caret-shift {
+    font-size: 30px;
+    color: midnightblue;
+    background-color: transparent;
+    display: flex;
+    border-color: transparent;
+    outline-color: transparent;
+    box-shadow: -4px 2px 9px gray;
+}
+
+.left-caret-shift:active,
+.right-caret-shift:active {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 9px black;
+}
+
+.erase-box {
+    border: none;
+    position: relative;
+    right: 45px;
+}
+
+.erase-button {
+    font-size: 35px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    /* box-shadow: -2px 2px 9px gray; */
+}
+
+.erase-button:active {
+    border: none;
+    box-shadow: 0px 0px 4px black;
+}
+
+/* .erase-button-config{
+    box-shadow: -2px 2px 9px gray;
+} */
